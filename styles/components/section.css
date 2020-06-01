@@ -1,5 +1,6 @@
 .section {
   position: relative;
+  padding-top: 20px;
 }
 
 .section-background,
@@ -19,16 +20,10 @@
 }
 .section-hero .section-foreground {
   min-height: 335px;
-  display: flex;
-  flex-direction: row;
 }
 .section-hero-image {
-  min-width: 117px;
-  min-height: 223px;
+  max-width: 177px;
   margin: 22px auto;
-}
-.section-content {
-  max-width: 286px;
 }
 .section-hero-title,
 .section-hero-subtitle {
@@ -46,15 +41,39 @@
   max-width: 137px;
   margin: 0 auto 15px;
 }
-.section-contrary-title {
+.section-title {
   color: #5094f2;
   font-size: 24px;
   margin: 0;
   font-weight: 400;
-  line-height: 51.86px;
+  line-height: 52px;
+}
+.section-title-color {
+  color: inherit;
 }
 .section-contrary-description {
   font-size: 15px;
   font-weight: 400;
   margin: 0;
+}
+.section-shopping-title {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: center;
+  padding-top: 10px;
+}
+.section-shopping-image {
+  max-width: 215px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.section-description {
+  line-height: 36px; 
+  padding-bottom: 20px;
+}
+.section-copyright {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 15px;
 }

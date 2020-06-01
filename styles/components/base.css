@@ -26,6 +26,11 @@ html {
   display: flex;
   max-width: 208px;
 }
+.header {
+  padding: 20px 30px 10px;
+  display: flex;
+  justify-content: space-between;
+}
 
 .mobile-nav {
   display: flex;

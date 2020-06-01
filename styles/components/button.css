@@ -40,6 +40,6 @@
   margin-top: 18px;
 }
 .button-primary:hover {
-  background-color: #ffffff;
-  color: #5094f2;
+  border: 1px solid #ebbb11;
+  background-color: #ebbb11;
 }
