@@ -1,0 +1,45 @@
+.button {
+  display: inline-block;
+  margin-top: 0;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  font-size: 24px;
+  line-height: inherit;
+  font-family: inherit;
+  padding: 11px 13px;
+  font-weight: 400;
+  text-transform: none;
+  text-decoration: none;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.button:focus {
+  outline: none;
+}
+.button-full {
+  width: 100%;
+}
+.button-icon {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+}
+.button-primary {
+  color: #ffffff;
+  border: 1px solid #5094f2;
+  background-color: #5094f2;
+  padding-left: 45px;
+  margin-top: 18px;
+}
+.button-primary:hover {
+  background-color: #ffffff;
+  color: #5094f2;
+}
