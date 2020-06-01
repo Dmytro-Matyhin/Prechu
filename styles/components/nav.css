@@ -1,0 +1,30 @@
+.nav {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  .nav {
+    display: block;
+  }
+}
+@media (min-width: 960px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.nav-item {
+  color: #6c6c6c;
+  padding:0 20px;
+}
+.nav-border {
+  border-bottom: 3px solid transparent;
+  padding-bottom: 23px;
+}
+.nav-border:hover {
+  border-bottom: 3px solid #5094f2;
+}

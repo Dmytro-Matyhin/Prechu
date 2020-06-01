@@ -30,11 +30,7 @@ html {
   padding: 20px 30px 10px;
   display: flex;
   justify-content: space-between;
-}
-
-.mobile-nav {
-  display: flex;
-  max-width: 58px;
+  align-items: center;
 }
 
 a {
