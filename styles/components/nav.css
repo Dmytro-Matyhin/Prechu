@@ -1,17 +1,16 @@
 .nav {
   display: none;
 }
-.mobile-nav {
-  display: inline-block;
-}
 
-@media (min-width: 960px) {
+@media (min-width: 640px) {
   .nav {
     display: inline-block;
   }
-}
-@media (min-width: 960px) {
-  .mobile-nav {
+  .nav-item {
+    padding: 0 20px;
+    font-size: 17px;
+  }
+  .mobile-menu {
     display: none;
   }
 }
@@ -22,11 +21,20 @@
 }
 .nav-item {
   color: #6c6c6c;
-  padding:0 20px;
+  padding: 0 15px;
+  font-size: 14px;
 }
+
+@media (min-width: 960px) {
+  .nav-item {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
 .nav-border {
   border-bottom: 3px solid transparent;
-  padding-bottom: 33px;
+  padding-bottom: 17px;
 }
 .nav-border:hover {
   border-bottom: 3px solid #5094f2;

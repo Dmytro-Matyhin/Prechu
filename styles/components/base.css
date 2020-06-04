@@ -18,25 +18,27 @@ html {
   overflow: hidden;
 }
 .container {
-  max-width: 992px;
-  padding: 0 16px;
+  max-width: 1020px;
+  padding: 0 30px;
   margin: 0 auto;
 }
 .logo {
   display: inline-block;
-  max-width: 208px;
+  max-width: 150px;
+}
+.mobile-menu {
+  display: inline-block;
+  max-width: 45px;
 }
 .header {
-  padding: 20px 30px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 20px;
 }
-
 a {
   color: #ffffff;
   text-decoration: none;
-  text-transform: uppercase;
 }
 a:hover {
   text-decoration: none;

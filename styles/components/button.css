@@ -28,9 +28,11 @@
   width: 100%;
 }
 .button-icon {
+  display: inline-block;
+  max-width: 23px;
   position: absolute;
-  top: 7px;
-  left: 5px;
+  top: 12px;
+  left: 14px;
 }
 .button-primary {
   color: #ffffff;
@@ -39,7 +41,12 @@
   padding-left: 45px;
   margin-top: 18px;
 }
-.button-primary:hover {
-  border: 1px solid #ebbb11;
-  background-color: #ebbb11;
+@media (min-width:640px) {
+  .button {
+    margin-top: 33px;
+  }
+  .button-primary:hover {
+    border: 1px solid #ebbb11;
+    background-color: #ebbb11;
+  }
 }
