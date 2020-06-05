@@ -18,6 +18,7 @@
   background-size: cover;
   color: #ffffff;
   min-height: 250px;
+  padding: 30px 0;
 }
 @media (min-width: 960px) {
   .section-decore {
@@ -51,23 +52,16 @@
 }
 @media (min-width: 480px) {
   .section-hero .section-image {
-    min-width: 167px;
     display: block;
     padding-top: 10px;
   }
 }
 @media (min-width: 640px) {
-  .section-body {
-    min-height: 300px;
-  }
   .section-content {
     max-width: 286px;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-  }
-  .section-hero .section-image {
-    min-width: 223px;
   }
   .section-content {
     margin: 0 auto;
